@@ -39,7 +39,7 @@ from airflow import BashOperator
 
 default_args={
 'owner':name
-start_date:(2024,11,02)
+start_date:(2025,19,02)
 retries:1
 retry_delay=timedelta(minutes=5)
 
@@ -50,7 +50,6 @@ dag=DAG(
 default_args=default_args
 email_on_failure='False'
 retry_on_failure='False'
-schedule_interval=('0 16 0 0')
+schedule_interval=('0 9 0 0')
 
 )
-
