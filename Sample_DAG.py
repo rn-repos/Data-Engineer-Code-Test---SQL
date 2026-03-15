@@ -39,7 +39,7 @@ from airflow import BashOperator
 
 default_args={
 'owner':name
-start_date:(2025,19,02)
+start_date:(2025,19,2)
 retries:1
 retry_delay=timedelta(minutes=5)
 
