@@ -21,4 +21,5 @@ FROM
 WHERE 
     rn = 1
 ORDER BY 
-    redemptionDate;
+    redemptionDate
+select retailerId from LatestRedemptions where redemptionCount is NULL;
